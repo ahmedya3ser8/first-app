@@ -1,0 +1,18 @@
+.contact {
+  padding: 50px 0;
+}
+
+.contact form label {
+  color: #1abc9c;
+}
+
+.contact form input {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #a1a1a1 !important;
+}
+
+.contact form .btn {
+  background-color: #1abc9c;
+  color: #fff;
+}

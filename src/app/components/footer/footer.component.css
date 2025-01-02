@@ -1,0 +1,28 @@
+footer {
+  background-color: var(--main-color);
+  padding: 40px 0px;
+}
+
+footer .footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer .footer-icons .footer-icon {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  background-color: #1A252F;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}

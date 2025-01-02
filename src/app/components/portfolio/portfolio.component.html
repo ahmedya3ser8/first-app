@@ -1,0 +1,24 @@
+<section class="portfolio">
+  <div class="container">
+    <div class="head-title text-center">
+      <app-head-star [title]="'portfolio component'" [bgColor]="'#2C3E50'" ></app-head-star>
+    </div>
+    <div class="row g-5">
+      @for (image of imagesArr; track $index) {
+        <div class="col-md-6 col-lg-4">
+          <div class="box position-relative" (click)="showModal(image)">
+            <img [src]="image" class="w-100 rounded-3" alt="portfolio-image" />
+            <div class="layer">
+              <i class="fa-solid fa-plus fa-2xl"></i>
+            </div>
+          @if (isClicked) {
+            <div class="modal">
+              <img [src]="imgUrl" class="rounded-3" alt="portfolio-image" />
+            </div>
+          }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

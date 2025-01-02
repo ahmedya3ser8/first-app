@@ -1,0 +1,12 @@
+nav {
+  background-color: var(--main-color);
+  transition: .4s;
+}
+
+nav .nav-link {
+  width: fit-content;
+}
+
+.nav-link.active {
+  background-color: #1abc9c;
+}

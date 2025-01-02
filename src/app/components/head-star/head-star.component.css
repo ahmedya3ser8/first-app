@@ -1,0 +1,11 @@
+.content-star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+}

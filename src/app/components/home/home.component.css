@@ -1,0 +1,12 @@
+.home {
+  padding: 50px 0px;
+  min-height: calc(-120px + 100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+}
+
+.home img {
+  width: 250px;
+}
